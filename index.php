@@ -24,8 +24,19 @@
                                 Funções e Escopo
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_retorno">
+                               Argumentos e retornos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=palindromo">
+                               Desafio Palindromo
+                            </a>
+                        </li>
                     </ul>
                 </div>
+                
                 <div class="modulo verde-escuro">
                     <h3>6. Repetições</h3>
                     <ul>
