@@ -44,6 +44,16 @@
                                 Argumentos padrão
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=anonimas">
+                                Funções Anônimas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=map_filter">
+                                Map & Filter
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
