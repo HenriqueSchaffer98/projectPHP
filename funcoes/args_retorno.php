@@ -1,49 +1,44 @@
-<div class="titulo">Argumentos e Retornos</div>
+<div class="titulo">Argumentos & Retorno</div>
 
 <?php
+function obterMensagem() {
+    return 'Seja bem vindo(a)!';
+}
 
-    function obterMenssagens(){
-        return 'Seja bem vindo!';
-    }
+obterMensagem();
+$m = obterMensagem();
+echo $m;
+echo '<br>', obterMensagem();
+echo '<br>';
+var_dump(obterMensagem());
 
-    obterMenssagens();
+function obterMensagemComNome($nome) {
+    return "Bem vindo, {$nome}!";
+}
 
-    $menssagem = obterMenssagens();
+echo '<br>', obterMensagemComNome('Wagner');
+echo '<br>', obterMensagemComNome('Tiago');
 
-    echo $menssagem;
-    echo '<br>';
-    var_dump(obterMenssagens());
+function soma($a, $b) {
+    return $a + $b;
+}
 
-    function obterMenssagemComNome($nome){
-        return "Bem vindo, {$nome}!";
-    }
+$x = 4;
+$y = 5;
+echo '<br>', soma(45, 78);
+echo '<br>', soma($x, $y);
 
-    echo '<br>', obterMenssagemComNome('Henrique');
-    echo '<br>', obterMenssagemComNome('Root');
+function trocarValor($a, $novoValor) {
+    $a = $novoValor;
+}
 
-    function soma($a, $b){
-        return $a + $b;
-    }
+$variavel = 1;
+trocarValor($variavel, 3);
+echo '<br>', $variavel;
 
-    echo '<br>', soma(5, 5);
-    $x = 20;
-    $y = 34;
+function trocarValorDeVerdade(&$a, $novoValor) {
+    $a = $novoValor;
+}
 
-    echo '<br> A soma dos numeros é: ', soma($x, $y);
-
-    function trocaValor($a, $novoValor){
-        $a = $novoValor;
-    }
-
-    $var = 1;
-    trocaValor($var, 5);
-    echo '<br>', $var;
-
-    function trocaValorDeVerdade(&$a, $novoValor){ //Utilizando o & você referencia o valor da memória sendo assim consegue modificar o valor.
-        $a = $novoValor;
-    }
-
-    trocaValorDeVerdade($var, 5);
-    echo '<br>', $var;
-
-?>
+trocarValorDeVerdade($variavel, 5000);
+echo '<br>', $variavel;

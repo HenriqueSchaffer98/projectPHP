@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="recursos/css/estilo.css">
     <title>Curso PHP</title>
 </head>
-
 <body>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
@@ -16,17 +14,37 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+            <div class="modulo azul-escuro ">
+                    <h3>8. Paradigma O.O</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objeto&file=classes">
+                                Primeira Classe     
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objeto&file=data">
+                                Desafio Data     
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objeto&file=construtor_destrutor">
+                                Construtor & Destrutor     
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo vermelho-escuro">
                     <h3>7. Funções</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=escopo">
-                                Funções e Escopo
+                                Função & Escopo
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=args_retorno">
-                                Argumentos e retornos
+                                Args & Retorno
                             </a>
                         </li>
                         <li>
@@ -36,17 +54,42 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=args_variaveis">
-                                Argumentos variaveis
+                                Argumentos Variáveis
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=arg_padrao">
-                                Argumentos padrão
+                                Argumento Padrão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=usando_tipos">
+                                Usando Tipos
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=anonimas">
                                 Funções Anônimas
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=closure_callable">
+                                Closure & Callable
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=recursividade">
+                                Recursividade
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=desafio_recursao">
+                                Desafio Recursão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=retornando_funcao">
+                                Retornando Função
                             </a>
                         </li>
                         <li>
@@ -56,7 +99,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="modulo verde-escuro">
                     <h3>6. Repetições</h3>
                     <ul>
@@ -334,5 +376,4 @@
         COD3R & ALUNOS © <?= date('Y'); ?>
     </footer>
 </body>
-
 </html>
