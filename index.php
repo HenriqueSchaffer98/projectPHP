@@ -37,6 +37,16 @@
                                 Herança     
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objeto&file=visibilidade">
+                                Visibilidade     
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objeto&file=static">
+                                Membros Estáticos     
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
