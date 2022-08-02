@@ -47,6 +47,11 @@
                                 Membros Estáticos     
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classes_objeto&file=interface">
+                                Interface     
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
