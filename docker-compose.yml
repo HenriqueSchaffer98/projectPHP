@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+  web:
+    image: php:7.4-apache
+    container_name: curso-php
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /Users/henriqueschaffer/App/PHP/curso-php:/var/www/html
+    links:
+      - db
+  db:
+    image: mysql:latest
+    container_name: mysql-curso
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
