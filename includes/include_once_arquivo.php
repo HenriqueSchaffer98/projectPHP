@@ -1,5 +1,5 @@
 <?php
-echo 'Carregando: include_arquivo<br>';
+echo 'Carregando: include_once_arquivo<br>';
 
 $variavel = 'Estou definida';
 

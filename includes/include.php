@@ -1,10 +1,9 @@
-<div class="titulo">Includes</div>
+<div class="titulo">Include</div>
 
 <?php
-
-echo 'Arquivo Carregado... Include.php <br>';
-
+echo 'Executei essa linha do arquivo include<br>';
 include('include_arquivo.php');
+// include('include_arquivo.php');
 
 echo soma(3, 8) . '!<br>';
-echo "O conteudo da variavel é '{$variavel}'.";
+echo "O conteúdo da variável é '{$variavel}'.";
